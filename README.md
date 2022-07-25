@@ -5,8 +5,8 @@ This repo contains code for an image retrieval microservice designed a partner's
 This microservice establishes a two way communication link between two programs using a socket bound to a specific localhost port (localhost:3000 by default). The microservice is coded in node.js using the ZeroMQ (https://zeromq.org/) embeddable networking library. 
 
 ### This repo contains two main files:
-1. server.js which recieves requests from a client program or computer and sends back data based on the content of the request. 
-2. client.js which provides a template example for how a program can set up a connection to the socket and send requests to the server and recieve data back from it. 
+- server.js which recieves requests from a client program or computer and sends back data based on the content of the request. 
+- client.js which provides a template example for how a program can set up a connection to the socket and send requests to the server and recieve data back from it. 
 
 ## Requesting Data
 Data is sent exclusively using a socket connection for this microservice. Once a socket connection is established to the same port as the server (i.e. both server and client are connected to localhost:3000) an asyncrhonous message can be sent to the service in the form of a string. The server recognizes three string requests: 'distance', 'speed', and 'pace' and has a prepared response to each of those. Any other type of string or message will be met with an error message stating the request was invalid. 
