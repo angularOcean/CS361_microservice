@@ -16,7 +16,7 @@ Receiving data functions similarily to sending data to the microservice. Once th
 
 ## UML Sequence Diagram
 The following diagram displays how the client and server are expected to interact for this microservice. 
-![UML](https://github.com/angularOcean/CS361_microservice/blob/main/UML_Diagram.png)
+![UML](https://github.com/angularOcean/CS361_microservice/blob/main/UMLdiagram.png)
 
 ## Installation
 Download the files from this repo and run "npm install" in the package directory 
