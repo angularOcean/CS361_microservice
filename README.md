@@ -1,5 +1,5 @@
 # CS361_microservice
-This repo contains code for an image retrieval microservice designed a partner's project in OSU CS361.
+This repo contains code for an image retrieval microservice designed for a partner's project in OSU CS361.
 
 ## Description
 This microservice establishes a two way communication link between two programs using a socket bound to a specific localhost port (localhost:3000 by default). The microservice is coded in node.js using the ZeroMQ (https://zeromq.org/) embeddable networking library. 
